@@ -1,3 +1,33 @@
-baseurl: /
-exclude: ['README.md']
-theme: jekyll-theme-architect
+# Site Settings
+title:               Karan Agarwal
+tagline:
+description:
+baseurl:
+url:                "http://blog.karanagarwal.me"
+github:
+  url:               "https://github.com/karanagarwal17/blog"
+author:
+  name:              "Karan Agarwal"
+  email:             "karanagarwal1702@gmail.com"
+  twitter:           "karanagarwal17"
+  github:            "karanagarwal17"
+  facebook:          "karanagarwal17"
+  linkedin:          "karanagarwal17"
+navigation:
+- title: About
+  url: /about
+- title: Writing
+  url: /writing
+- title: Contact
+  url: /contact
+
+paginate:            5
+disqus:              #"your-disqus"
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           pretty
+gems:                [jekyll-paginate]
+
+exclude: ["README.md","CNAME",".gitignore","LICENSE"]
