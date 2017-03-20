@@ -1,5 +1,5 @@
 # Site Settings
-title:               Karan Agarwal
+title:               Blog
 tagline:
 description:
 baseurl:
@@ -9,7 +9,7 @@ github:
 author:
   name:              "Karan Agarwal"
   email:             "karanagarwal1702@gmail.com"
-  twitter:           "karanagarwal17"
+  twitter:           "karanagar17"
   github:            "karanagarwal17"
   facebook:          "karanagarwal17"
   linkedin:          "karanagarwal17"
