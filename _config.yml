@@ -28,4 +28,4 @@ highlighter:         rouge
 permalink:           pretty
 gems:                [jekyll-paginate]
 
-exclude: ["README.md","CNAME",".gitignore","LICENSE"]
+exclude: ["README.md","CNAME",".gitignore","LICENSE","sample_posts"]
