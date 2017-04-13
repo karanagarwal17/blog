@@ -41,7 +41,7 @@ Some of the best ways to achieve this are -
 
 ### Keep a check on the Lie Factor
 
-Lie factor is ratio between the size of effect shown in a graphic and the size of effect in the data. It should be kept as close to 1 as possible. This ensures that the user is given a correct insight of the data.
+Lie factor is ratio between the size of effect shown in a graphic and the size of effect in the data. It should be kept as close to 1 as possible. This ensures that the user gets accurate insight from the data.
 
 
 Keeping these key points in mind I created Twitter Live Data Visualization web-app which uses Data Visualizations to create a world-map and uses the Twitter Streaming API to fetch tweets with their location. It then plots the tweets on the map according to their co-ordinates and the number of followers the user has. Corresponding to every data a circle is plotted on the map whose location depends on the co-ordinates of the tweet and the radius is a function of the number of followers.
