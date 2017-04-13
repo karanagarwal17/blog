@@ -14,7 +14,7 @@ As a developer, when most people hear about Data Visualizations, the first thing
 
 Data Visualization is an art. It is presentation of data in such a way that it enables people to make decisions based on the visual analysis. It allows people to grasp difficult concepts and identify new patterns. These are some of the key points which I keep in mind to create effective Data Visualizations.
 
-### Don't use redundant coding
+### Dont use redundant coding
 
 Redundant coding refers to representing a data attribute by more than one visual structure. If data is visualized as circles plotted on a graph, an example of redundant coding would be if the same data attribute is used to decide the y co-ordinate of the circle as well as its radius. This should be avoided.
 
@@ -31,7 +31,7 @@ Colors should be used to draw attention to key pieces of data. They should not b
 
 ### Keep high data-to-ink ratio
 
-Data to ink ratio is the ratio of ink used to depict data upon the total ink used. Keeping this high would ensure that most of the ink is used in depicting data and the extra "non-data" ink could be removed. This would allow user to focus on the data completely and thus would help people in understanding the visualization more easily.
+Data to ink ratio is the ratio of ink used to depict data upon the total ink used. Keeping this high would ensure that most of the ink is used in depicting data and the extra non-data ink could be removed. This would allow user to focus on the data completely and thus would help people in understanding the visualization more easily.
 
 Some of the best ways to achieve this are -
 + remove the background
@@ -42,3 +42,11 @@ Some of the best ways to achieve this are -
 ### Keep a check on the Lie Factor
 
 Lie factor is ratio between the size of effect shown in a graphic and the size of effect in the data. It should be kept as close to 1 as possible. This ensures that the user is given a correct insight of the data.
+
+
+Keeping these key points in mind I created Twitter Live Data Visualization web-app which uses Data Visualizations to create a world-map and uses the Twitter Streaming API to fetch tweets with their location. It then plots the tweets on the map according to their co-ordinates and the number of followers the user has. Corresponding to every data a circle is plotted on the map whose location depends on the co-ordinates of the tweet and the radius is a function of the number of followers.
+
+![Twitter Live Data Visualization]({{site.github.url}}/images/twitter.jpeg)
+
+The source code for the project can be found on [Github](https://github.com/karanagarwal17/live-worldmap-visualization).
+The project is hosted [here](http://karanagarwal.me/live-worldmap-visualization).
